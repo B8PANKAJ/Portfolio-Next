@@ -7,10 +7,15 @@ import numtonum from "../Assets/Images/numtonum.png";
 const Projects = () => {
   return (
     <div className="mobile-prest" id="projects">
-      <h1 className="text-3xl sm:text-5xl text-white mb-3 font-semibold text-center">
+      <h1
+        className="text-3xl sm:text-5xl text-white mb-3 font-semibold text-center"
+        data-aos="fade-up-right"
+        data-aos-duration="1500"
+      >
         Recent Projects
       </h1>
       <div
+        data-aos="zoom-in-up"
         style={{ minHeight: "300vh" }}
         className="relative flex flex-col px-4 pt-24 pb-12 font-sans sm:px-6 lg:px-8"
       >

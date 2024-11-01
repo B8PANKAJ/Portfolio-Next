@@ -2,16 +2,21 @@ import React from "react";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col items-center justify-center max-h-fit text-center p-4">
+    <div
+      className="flex flex-col items-center justify-center max-h-fit text-center p-4 overflow-x-hidden"
+      data-aos="fade-down"
+      data-aos-duration="2500"
+    >
       <h1 className="text-3xl sm:text-5xl text-white mb-3 font-semibold">
         Tech Stack
       </h1>
-      {/* First Scroll */}
+
+      {/* First Scroll - Conditional for larger screens */}
       <div
-        className="relative flex w-full max-w-[700px] overflow-hidden mask-gradient"
+        className="relative flex w-full max-w-full sm:max-w-[700px] overflow-hidden sm:mask-gradient"
         style={{ "--t": "20s" }}
       >
-        <div className="whitespace-nowrap animate-scroll">
+        <div className="whitespace-nowrap hidden sm:flex animate-scroll">
           <SkillSet
             items={[
               "HTML",
@@ -25,7 +30,23 @@ const Skills = () => {
             ]}
           />
         </div>
-        <div className="whitespace-nowrap animate-scroll2">
+        <div className="whitespace-nowrap hidden sm:flex animate-scroll2">
+          <SkillSet
+            items={[
+              "HTML",
+              "CSS",
+              "Javascript",
+              "React JS",
+              "Redux",
+              "Bootstrap",
+              "Tailwind CSS",
+              "Sass",
+            ]}
+          />
+        </div>
+
+        {/* Stacked Items on Mobile */}
+        <div className="flex sm:hidden flex-wrap justify-center gap-4">
           <SkillSet
             items={[
               "HTML",
@@ -41,12 +62,12 @@ const Skills = () => {
         </div>
       </div>
 
-      {/* Second Scroll */}
+      {/* Second Scroll - Conditional for larger screens */}
       <div
-        className="relative flex w-full max-w-[700px] overflow-hidden mask-gradient mt-8"
+        className="relative flex w-full max-w-full sm:max-w-[700px] overflow-hidden sm:mask-gradient mt-8"
         style={{ "--t": "15s" }}
       >
-        <div className="whitespace-nowrap animate-scroll">
+        <div className="whitespace-nowrap hidden sm:flex animate-scroll">
           <SkillSet
             items={[
               "Core Java",
@@ -60,7 +81,23 @@ const Skills = () => {
             ]}
           />
         </div>
-        <div className="whitespace-nowrap animate-scroll2">
+        <div className="whitespace-nowrap hidden sm:flex animate-scroll2">
+          <SkillSet
+            items={[
+              "Core Java",
+              "Node JS",
+              "Express JS",
+              "Oracle SQL",
+              "MongoDB",
+              "JDBC",
+              "Hibernate",
+              "Spring Boot",
+            ]}
+          />
+        </div>
+
+        {/* Stacked Items on Mobile */}
+        <div className="flex sm:hidden flex-wrap justify-center gap-4">
           <SkillSet
             items={[
               "Core Java",

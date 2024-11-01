@@ -17,6 +17,9 @@ export default {
         scroll: "scroll var(--t) linear infinite",
         scroll2: "scroll2 var(--t) linear infinite",
       },
+      fontFamily: {
+        cursive: ['"Dancing Script"', "cursive"],
+      },
     },
   },
   plugins: [],

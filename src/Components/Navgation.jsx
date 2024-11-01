@@ -27,7 +27,9 @@ const Navigation = () => {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen-md py-3 shadow ${
+      data-aos="fade-down"
+      data-aos-duration="1500"
+      className={`fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen py-3 shadow ${
         isScrolled ? "bg-white text-gray-900" : "bg-transparent text-white"
       } transition-colors duration-300 backdrop-blur-lg md:top-6 md:rounded-3xl lg:max-w-screen-lg`}
     >
@@ -35,7 +37,10 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           <div className="flex shrink-0">
             <a aria-current="page" className="flex items-center" href="/">
-              <p className="font-extrabold text-2xl"> Pankaj</p>
+              <p className="font-extrabold text-2xl italic font-cursive">
+                {" "}
+                Pankaj
+              </p>
             </a>
           </div>
 
