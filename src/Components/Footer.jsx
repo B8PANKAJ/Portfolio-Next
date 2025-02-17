@@ -49,21 +49,20 @@ const Footer = () => {
       className="flex flex-col md:flex-row max-w-6xl mx-auto p-4 space-y-8 md:space-y-0"
       id="contact"
       data-aos="zoom-in-up"
-      data-aos-duration="1500"
     >
       <div className="w-full max-w-md mx-auto relative overflow-hidden z-10 bg-transparent p-8 rounded-lg shadow-md before:w-24 before:h-24 before:absolute before:bg-purple-600 before:rounded-full before:-z-10 before:blur-2xl after:w-32 after:h-32 after:absolute after:bg-sky-400 after:rounded-full after:-z-10 after:blur-xl after:top-24 after:-right-12 md:mr-4 md:w-1/2">
-        <h2 className="text-2xl font-bold text-white mb-6">Contact Me!</h2>
+        <h2 className="text-2xl font-bold text-black mb-6">Contact Me!</h2>
 
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label
-              className="block text-sm font-medium text-gray-300"
+              className="block text-sm font-medium text-black"
               htmlFor="name"
             >
               Full Name
             </label>
             <input
-              className="mt-1 p-2 w-full bg-gray-700 border border-gray-600 rounded-md text-white"
+              className="mt-1 p-2 w-full border border-gray-600 rounded-md text-black"
               type="text"
               id="name"
               name="name"
@@ -75,13 +74,13 @@ const Footer = () => {
 
           <div className="mb-4">
             <label
-              className="block text-sm font-medium text-gray-300"
+              className="block text-sm font-medium text-black"
               htmlFor="email"
             >
               Email Address
             </label>
             <input
-              className="mt-1 p-2 w-full bg-gray-700 border border-gray-600 rounded-md text-white"
+              className="mt-1 p-2 w-full border border-gray-600 rounded-md text-white"
               type="email"
               id="email"
               name="email"
@@ -93,13 +92,13 @@ const Footer = () => {
 
           <div className="mb-4">
             <label
-              className="block text-sm font-medium text-gray-300"
+              className="block text-sm font-medium text-black"
               htmlFor="bio"
             >
               Enter Your Message
             </label>
             <textarea
-              className="mt-1 p-2 w-full bg-gray-700 border border-gray-600 rounded-md text-white"
+              className="mt-1 p-2 w-full border border-gray-600 rounded-md text-white"
               rows="3"
               id="bio"
               name="bio"
@@ -125,7 +124,7 @@ const Footer = () => {
         <a href="#" className="text-2xl font-semibold text-gray-900 mb-5">
           Pankaj.
         </a>
-        <span className="block text-sm text-gray-500 mb-5">
+        <span className="block text-sm text-black mb-5">
           © 2024-till Now ™. All Rights Reserved. Follow Me on Social Media
         </span>
         <div className="flex space-x-6 mt-5 justify-center">
@@ -153,7 +152,7 @@ const Footer = () => {
           ].map(({ href, label, Icon }, index) => (
             <div key={index} className="group relative">
               <a href={href} target="_blank" rel="noopener noreferrer">
-                <Icon className="w-8 h-8 hover:scale-125 text-white duration-200" />
+                <Icon className="w-8 h-8 hover:scale-125 text-black duration-200" />
               </a>
               <span className="absolute -top-10 left-[50%] -translate-x-[50%] z-20 origin-left scale-0 px-3 rounded-lg border border-gray-300 bg-white py-2 text-sm font-bold shadow-md transition-all duration-300 ease-in-out group-hover:scale-100">
                 {label}

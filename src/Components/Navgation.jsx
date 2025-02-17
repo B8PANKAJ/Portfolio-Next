@@ -30,7 +30,7 @@ const Navigation = () => {
       data-aos="fade-down"
       data-aos-duration="1500"
       className={`fixed inset-x-0 top-0 z-30 mx-auto w-full max-w-screen py-3 shadow ${
-        isScrolled ? "bg-white text-gray-900" : "bg-transparent text-white"
+        isScrolled ? "bg-white text-gray-900" : "bg-transparent text-black"
       } transition-colors duration-300 backdrop-blur-lg md:top-6 md:rounded-3xl lg:max-w-screen-lg`}
     >
       <div className="px-4">

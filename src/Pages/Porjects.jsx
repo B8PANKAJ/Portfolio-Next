@@ -3,13 +3,14 @@ import Shopless from "../Assets/Images/Shopless-Ecomm.png";
 import Dice from "../Assets/Images/Dice-game.png";
 import Aaorush from "../Assets/Images/Aaorush-Chatbot.png";
 import numtonum from "../Assets/Images/numtonum.png";
+import { IoArrowUp } from "react-icons/io5";
 
 const Projects = () => {
   return (
     <div className="mobile-prest" id="projects">
       <h1
         className="text-3xl sm:text-5xl text-white mb-3 font-semibold text-center"
-        data-aos="fade-up-right"
+        data-aos="fade-right"
         data-aos-duration="1500"
       >
         Recent Projects
@@ -47,8 +48,14 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    <button className="bg-sky-400 text-white py-4 px-10 font-bold rounded-lg cursor-pointer mt-4">
-                      Go
+                    <button
+                      type="submit"
+                      className="flex gap-2 mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 mt-5 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full 
+                      before:bg-emerald-500 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 
+                      overflow-hidden border-2 rounded-[13px] group"
+                    >
+                      Explore
+                      <IoArrowUp className="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-black ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45" />
                     </button>
                   </a>
                 </div>
@@ -79,8 +86,14 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="bg-sky-400 text-white py-4 px-10 font-bold rounded-lg cursor-pointer mt-4">
-                      Go
+                    <button
+                      type="submit"
+                      className="flex gap-2 mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 mt-5 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full 
+                      before:bg-emerald-500 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 
+                      overflow-hidden border-2 rounded-[13px] group"
+                    >
+                      Explore
+                      <IoArrowUp className="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-black ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45" />
                     </button>
                   </a>
                 </div>
@@ -112,8 +125,14 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="bg-sky-400 text-white py-4 px-10 font-bold rounded-lg cursor-pointer mt-4">
-                      Go
+                    <button
+                      type="submit"
+                      className="flex gap-2 mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 mt-5 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full 
+                      before:bg-emerald-500 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 
+                      overflow-hidden border-2 rounded-[13px] group"
+                    >
+                      Explore
+                      <IoArrowUp className="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-black ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45" />
                     </button>
                   </a>
                 </div>
@@ -147,8 +166,14 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="bg-sky-400 text-white py-4 px-10 font-bold rounded-lg cursor-pointer mt-4">
-                      Go
+                    <button
+                      type="submit"
+                      className="flex gap-2 mx-auto shadow-xl text-lg bg-gray-50 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 mt-5 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full 
+                      before:bg-emerald-500 hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 
+                      overflow-hidden border-2 rounded-[13px] group"
+                    >
+                      Explore
+                      <IoArrowUp className="w-8 h-8 justify-end group-hover:rotate-90 group-hover:bg-gray-50 text-black ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45" />
                     </button>
                   </a>
                 </div>
